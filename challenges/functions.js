@@ -38,11 +38,18 @@ consume(10,16,multiply); // 160
 consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 
-// ==== Closures ==== 
+// ==== Closures ====
+
+console.log("Closures Challenges 👇")
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: 
+// Explanation:
+
+// Closures are basically a function inside an other function.
+// The "inner function" has access to the variable declared in the outer function.
+// Here `nestedfunction()` is the inner function and `myFunction()` is the outer function.
+// Because the `internal` variable is declared in the `myFunction().`, the `nestedfunction()` has access to it.
 
 
 const external = "I'm outside the function";
