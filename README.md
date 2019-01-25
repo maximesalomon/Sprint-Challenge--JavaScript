@@ -30,20 +30,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+The major difference between the two is `.map` returns a new array. They both go through each element and execute the provided function.
+
 2. What is the difference between a function and a method?
+
+Functions and Methods are both "functions" in a way. The difference with a method is that its related to an object (most of the time). You have to call it on something whereas a function can be called independently.
 
 3. What is closure?
 
+A closure is a function inside an other function where the inner function has acces to the variables of the outter function.
+
 4. Describe the four rules of the 'this' keyword.
+
+a - Window/Global Object Binding - "this" refers to the global object.
+b - Implicit Binding - "this" refers to the object it is called on.
+c - New Binding - "this" refers to the object that is created by new.
+d - Explicit Binding - "this" refers to what apply or call is refering to.
 
 5. Why do we need super() in an extended class?
 
+We use super() to get access to the constructors from the class we called extended on.
+
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [X] Fork the project into your GitHub user account
+* [X] Clone the forked project into a directory on your machine
+* [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [X] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
@@ -53,22 +67,22 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [X] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [X] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [X] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [X] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
 ## Stretch Problems
 
-There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+* [X] There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
